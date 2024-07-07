@@ -307,14 +307,13 @@ h2 {
 }
 .Aboutbody{
     margin: 0px;
-    height: 510px;
+    height: 390px;
     width: auto;
     padding-left: 120px;
     position: relative;
 }
 .aboutleft{
 width: 45vw;
-height: 540px;
 display: inline-flex;
 position: relative;
 margin-top: 20px;
@@ -354,8 +353,8 @@ margin-top: 20px;
     height: 20vh;
     background-color: #F0BED6;
     clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
-    position: absolute;
-    bottom: -5050px;
+    position: relative;
+    top: 30px;
     margin: 0;
     align-items: center;
 }
