@@ -307,41 +307,45 @@ h2 {
 }
 .Aboutbody{
     margin: 0px;
-    height: 390px;
+    height: 77vh;
     width: auto;
     padding-left: 120px;
     position: relative;
 }
 .aboutleft{
 width: 45vw;
+height: 100%;
 display: inline-flex;
 position: relative;
-margin-top: 20px;
+margin-top: 4vh;
 }
 .aboutright{
     width: 40vw;
+    height: 100%;
     display: inline-flex;
     position: relative;
     z-index: 10;
-
+}
+.name{
+    position: absolute;
 }
 #smalltext{
-    font-size: 1.1em;
+    font-size: 3vh;
     color: #404040;
-    padding: 10px;
-    padding-left: 0px;
+    padding: 1vh;
+    padding-left: 0;
 }
 #nametext{
     color: #AA4BFF;
     font-weight: bold;
-    font-size: 50px;
-    padding: 5px;
+    font-size: 10vh;
+    padding: .5vh;
     padding-left: 0px;
 }
 #subtext{
-    font-size: 1.8em;
+    font-size: 4vh;
     color: #404040;
-    padding: 5px;
+    padding: .5vh;
     padding-left: 0px;
 }
 #redbold{
@@ -354,35 +358,24 @@ margin-top: 20px;
     background-color: #F0BED6;
     clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
     position: relative;
-    top: 30px;
+    bottom: 17.5vh;
     margin: 0;
-    align-items: center;
 }
 .imagecontainer{
     border: #AA4BFF;
     border-width: 2px;
 }
-.imagebg img{
-    height: auto;
-    width: 65%;
-    margin-left: 40px;
-    position: absolute;
-    margin-top: 40px;
-}
-.imagedp img{
-    height: 580px;
-    width: auto;  
-    position: absolute;
-    align-self: flex-end;
-    margin-top: 0;
-    top: -55px;
+#DPD{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 .contact-container {
     display: flex;
     align-items: center;
     position: relative;
     align-self: center;
-    padding-left: 27px;
+    padding-left: 2vw;
 }
 
 .contact-link {
@@ -391,7 +384,7 @@ margin-top: 20px;
     text-decoration: none;
     color: #404040; /* Adjust the color as needed */
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 3vh;
     position: relative;
     transition: color 0.3s;
 }
@@ -432,10 +425,10 @@ margin-top: 20px;
 .contact {
     color: #404040;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 4vh;
     padding-left: 0;
     margin-top: 10px;
     padding-bottom: 5px;
     padding-left: 25px;
-    padding-top: 15px;
+    padding-top: 25px;
 }
